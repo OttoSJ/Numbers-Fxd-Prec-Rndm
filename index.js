@@ -18,6 +18,12 @@ el3.innerHTML = toPrecision;
 console.log(originalNumber.toPrecision(3));
 
 
+let number = "34her"
+parseFloat(number)
+console.log(parseFloat(number))
+
+
+
 //      HOW TO GENERATE A RANDOM NUMBER!!!!!!!   ////////////////////////////////////////////////////////////////
 let randomNum = Math.floor((Math.random() * 10) + 1);
 let el4 = document.getElementById("random");
@@ -25,3 +31,5 @@ el4.innerHTML = randomNum;
 
 
 // SEE PAGES 132-135 IN JAVASCRIPT BOOK!!!!!!!!           /////////////////////////////////////////////////
+
+
